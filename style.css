@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Sigmar+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:linear-gradient( #00b09b , #90be3f);
+}
+.container{
+    width: 690px;
+    background-color: aliceblue;
+    border-radius: 6px;
+    padding: 30px;
+}
+.wrapper{
+    border: 3px solid rgb(206, 206, 206);
+    border-radius: 6px;
+}
+.wrapper .text-input{
+    display:flex ;
+    border-bottom: 3px solid rgb(206, 206, 206);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance:none;
+  margin: 0;
+}
+.text-input .to-curr {
+    border-left: 3px solid rgb(206, 206, 206);
+    border-radius: 0px;
+}
+.text-input input{
+    height: 100px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background:none ;
+    padding: 10px 15px;
+}
+.controls {
+    display: flex;
+    list-style: none;
+    padding: 10px 15px;
+    align-items: center;
+    justify-content: space-between ;
+    
+}
+i{
+    color: rgb(118, 184, 80);
+    font-size: 25px; 
+}
+select ,button{
+   font-size: 18px;
+}
+button{
+    background: linear-gradient(to right, #00b09b , #90be3f);
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    align-items: center;
+}
+button:hover{
+    background: rgb(206, 206, 206);
+
+}
+select{
+width: 250px;
+}
+.controls select{
+    border: none;
+}

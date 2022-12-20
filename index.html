@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>money converter</title>
+    <script src="https://kit.fontawesome.com/6796103e8a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+    <div class="wrapper">
+        <div class="text-input">
+            <input type="number" placeholder="Enter currency" class="from-curr" id="input-curr">
+        </input>
+            <input type="number" placeholder="Converter" class="to-curr" id="output-curr" readonly disabled >
+        </input>
+        </div>
+        <ul class="controls">
+         <li class="mny-from">
+             <select>
+
+             </select>
+         </li>
+         <li class="exchange"><i class="fa-solid fa-right-left"></i>
+        </li>
+         <li class="mny-to">
+            <select>
+                
+            </select>
+        </li>
+       </ul>
+    </div>
+    <div class="cnvt-btn">
+    <button class="converting">convert</button>
+</div>
+ </div>    
+ <script src="currency.js"></script>
+<script src="money.js"></script>
+
+</body>
+
+</html>
