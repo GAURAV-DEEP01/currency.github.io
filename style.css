@@ -10,11 +10,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background:linear-gradient( #00b09b , #90be3f);
+    height: 100vh;
+    background: linear-gradient(to bottom, #00b09b , #90be3f);
 }
 .container{
-    width: 690px;
+    max-width: 690px;
     background-color: aliceblue;
     border-radius: 6px;
     padding: 30px;
@@ -37,7 +37,7 @@ input::-webkit-inner-spin-button {
     border-radius: 0px;
 }
 .text-input input{
-    height: 100px;
+    max-height: 100px;
     width: 100%;
     border: none;
     outline: none;
@@ -80,4 +80,42 @@ width: 250px;
 }
 .controls select{
     border: none;
+}
+@media (max-width:700px) {
+    select{
+        max-width:100px;
+        min-width: 60px;
+        }
+    button{   
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 5px;   
+    } 
+    i{  
+        font-size: 18px; 
+    }
+    .container{
+        border-radius: 6px;
+        padding: 23px;
+        margin: 15px;
+    }
+    body{
+      
+        max-height:300vh;
+       
+    }
+    button{
+        margin-top: 8px;
+    }
+    select ,button{
+        font-size: 12px;
+     }
+     .controls {
+        padding: 5px 8px; 
+    }
+    .text-input input{
+        font-size: 13px;
+        padding: 5px 8px;
+    }
 }
