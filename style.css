@@ -56,7 +56,8 @@ input::-webkit-inner-spin-button {
 }
 i{
     color: rgb(118, 184, 80);
-    font-size: 25px; 
+    font-size: 25px;
+    padding 10px;
 }
 select ,button{
    font-size: 18px;
